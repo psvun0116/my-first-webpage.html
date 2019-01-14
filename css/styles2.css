@@ -8,6 +8,11 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-style: bold;
+  text-align: center;
+}
+
 p {
   font-family: cursive;
   text-align: center;
@@ -20,5 +25,9 @@ p {
 }
 
 .parent > ul {
+  display: inline-block;
+}
+
+.parent > ol {
   display: inline-block;
 }
